@@ -6,7 +6,7 @@ var pdf = require('pdfkit');
 var qr = require('qrcode');
 var bodyParser = require('body-parser')
 
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 var form = '<form method="post" action="/convite">'+
 '<textarea name="numero" rows="8"></textarea><br>'+
