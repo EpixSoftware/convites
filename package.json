@@ -1,7 +1,7 @@
 {
-  "name": "qr",
-  "version": "1.0.0",
-  "description": "",
+  "name": "convites_arrastapata",
+  "version": "0.0.1",
+  "description": "Gerador online de convites para o ArrastaPata",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "express": "^4.13.4",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
     "pdfkit": "^0.7.2",
-    "qrcode": "^0.4.2"
-  }
+    "qrcode": "^0.4.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpixSoftware/convites_arrastapata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EpixSoftware/convites_arrastapata/issues"
+  },
+  "homepage": "https://github.com/EpixSoftware/convites_arrastapata#readme"
 }
